@@ -1,7 +1,6 @@
 import { useCoffeeContext } from "../context/CoffeeContext";
 
 
-
 const SetCoffeeBean = ({ coffeeBeans }) => {
   const {coffeeBean, setCoffeeBeanId} = useCoffeeContext();
 
